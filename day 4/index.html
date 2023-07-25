@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="user.js" defer></script>
+  </head>
+  <body>
+    <form onsubmit="on_submit()">
+      <div>
+        <h2>User Registration Form.</h2>
+      </div>
+      <div>
+        <label for="text1">Name</label>
+        <input type="text" id="text1" required />
+      </div>
+
+      <div>
+        <label for="text2">Email</label>
+        <input type="text" id="text2" required />
+      </div>
+
+      <div>
+        <label for="male">Gender</label>
+        <label
+          ><input type="radio" required name="Gender" id="button" />Male</label
+        >
+
+        <label
+          ><input
+            type="radio"
+            required
+            name="Gender"
+            id="button"
+          />Female</label
+        >
+      </div>
+
+      <div>
+        <label for="number">Number</label>
+        <input type="number" name="" id="number" required />
+      </div>
+
+      <div>
+        <label for="country">Country</label
+        ><select name="Country" id="country" required>
+          <option>Nepal</option>
+          <option>India</option>
+          <option>Australia</option>
+          <option>USA</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="description">Description</label>
+        <textarea name="" id="" required></textarea>
+      </div>
+      <div class="action-btn">
+        <button>Registration</button>
+      </div>
+    </form>
+  </body>
+</html>
