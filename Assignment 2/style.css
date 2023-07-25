@@ -3,6 +3,9 @@ body {
   place-content: center;
   height: 100vh;
 }
+a {
+  position: absolute;
+}
 form {
   border: 1px solid black;
   padding: 2px 20px 20px 20px;
